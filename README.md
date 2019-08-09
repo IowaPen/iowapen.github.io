@@ -13,6 +13,12 @@ The web site will be hosted on GitHub as iowapen.github.io, and later on the dom
 
 http://www.iowapen.club.  We also have the domain www.iowapen.com that we hope to link to use as well. 
 
+To access this source code:
+
+git remote add origin https://github.com/IowaPen/iowapen.github.io.git
+git push -u origin master
+
+
 
 ## UX
  
