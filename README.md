@@ -98,6 +98,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
+- The basic structure for the site was inspired by the UCD Resume mini project in the CodeInstitute.Net Full Stack Developer Course.
+
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 

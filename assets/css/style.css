@@ -1,8 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700|Pacifico:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700|Pacifico:100,200,300,400,500,600,700|Dancing+Script:100,200,300,400,500,600,700');
+
+/* COLORS --------------------------------------------*/
+
+.bg-color-heading {
+    background-color: #6d5624;
+}
+
+.text-color-heading {
+    color: #cbc5ad;
+}
+
+.bg-color-section {
+    background-color: #cbc5ad;
+}
+
+.text-color-section {
+    color: #6d5624;
+}
+
+.bg-color-footer {
+    background-color: #6d5624;
+}
+
+.text-color-footer {
+    color: #cbc5ad;
+}
+
+
+/* HEADER ---------------------------------------------------*/
 
 header {
     margin: 0;
 }
+
+.heading {
+    margin-left: 50px;
+    /* min-height: 360px; */
+    
+}
+
 
 .logo {
     background: url("../images/iowapen_logo.jpg");
@@ -10,8 +46,21 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+ }
+
+.clubname {
+    font-family: "Lobster", cursive;
+    font-weight: 100;
+    font-size: 56px;
+    margin-top: 50px;
+    color: #fff;
 }
 
+.fullname {
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-size: 38px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
