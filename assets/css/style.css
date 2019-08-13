@@ -28,7 +28,8 @@
 
 
 .nav-menu-color-home {
-    background-color: darkgreen;
+    background-color: darkgreen; /* for browserse that do not support gradients */
+    background: linear-gradient(to top right, lightgreen 0%, darkgreen 100%);
 }
 
 .nav-menu-color-events {
@@ -44,11 +45,12 @@
 }
 
 .nav-menu-color-resources {
-    background-color: crimson;
+    /* background-color: crimson; */
+    background: linear-gradient(to bottom right, red, yellow);
 }
 
 .nav-menu-color-local {
-    background-color: gold;
+    background-color: goldenrod;
 }
 
 .nav-menu-color-stores {
@@ -63,6 +65,10 @@
     background-color: brown;
 }
 
+.nav-menu-color-publications {
+    background-color: sienna;
+    background:  radial-gradient(peru, saddlebrown);
+}
 
 
 
