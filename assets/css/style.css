@@ -27,6 +27,45 @@
 }
 
 
+.nav-menu-color-home {
+    background-color: darkgreen;
+}
+
+.nav-menu-color-events {
+    background-color: purple;
+}
+
+.nav-menu-color-chapters {
+    background-color: turquoise;
+}
+
+.nav-menu-color-contacts {
+    background-color: darkblue;
+}
+
+.nav-menu-color-resources {
+    background-color: crimson;
+}
+
+.nav-menu-color-local {
+    background-color: gold;
+}
+
+.nav-menu-color-stores {
+    background-color: orange;
+}
+
+.nav-menu-color-clubs {
+    background-color: olive;
+}
+
+.nav-menu-color-shows {
+    background-color: brown;
+}
+
+
+
+
 /* HEADER ---------------------------------------------------*/
 
 header {
@@ -34,7 +73,8 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     /* min-height: 360px; */
     
 }
@@ -63,4 +103,50 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+/* MENUS ----------------------------------------------*/
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 80px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 80px;
+}
+
+.menuitem a i {
+    padding-top: 15px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
