@@ -54,7 +54,7 @@
 }
 
 .nav-menu-color-stores {
-    background-color: orange;
+    background-color: teal;
 }
 
 .nav-menu-color-clubs {
@@ -97,8 +97,9 @@ header {
 .clubname {
     font-family: "Lobster", cursive;
     font-weight: 100;
-    font-size: 56px;
-    margin-top: 50px;
+    font-size: 72px;
+    margin-top: 30px;
+    text-align: center;
     color: #fff;
     background: -webkit-radial-gradient(red, yellow); /* or linear-gradient. May not need -webkit- */
     -webkit-background-clip: text;
@@ -109,9 +110,13 @@ header {
     font-family: "Dancing Script", cursive;
     font-weight: 500;
     font-size: 38px;
+    text-align: center;
     margin-top: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     color: #fff;
+      background: -webkit-linear-gradient(bottom, gold, goldenrod); /* or linear-gradient. May not need -webkit- */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* MENUS ----------------------------------------------*/
