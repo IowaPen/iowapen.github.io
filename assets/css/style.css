@@ -100,6 +100,9 @@ header {
     font-size: 56px;
     margin-top: 50px;
     color: #fff;
+    background: -webkit-radial-gradient(red, yellow); /* or linear-gradient. May not need -webkit- */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .fullname {
