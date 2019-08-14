@@ -119,6 +119,32 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
+.heading-quote {
+    padding: 10px;
+    margin-left: 0px;
+    font-style: italic;
+}
+
+.heading-quote blockquote {
+    quotes: "&ldquo;" "&rdquo;";
+    
+}
+
+.heading-quote blockquote::before {
+    content:open-quote;
+}
+
+.heading-quote blockquote::after {
+    content:close-quote;
+}
+
+
+.heading-quote .author {
+    color: goldenrod;
+    font-style: oblique;
+}
+
+
 /* MENUS ----------------------------------------------*/
 
 .list-inline-item:not(:last-child) {
