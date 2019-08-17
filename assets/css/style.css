@@ -3,7 +3,7 @@
 /* COLORS --------------------------------------------*/
 
 .bg-color-heading {
-    background-color: #6d5624;
+    background-color: #957632;
 }
 
 .text-color-heading {
@@ -19,7 +19,7 @@
 }
 
 .bg-color-footer {
-    background-color: #6d5624;
+    background-color: #957632;
 }
 
 .text-color-footer {
@@ -28,41 +28,48 @@
 
 
 .nav-menu-color-home {
-    background-color: darkgreen; /* for browserse that do not support gradients */
+    background-color: darkgreen; /* for browsers that do not support gradients */
     background: linear-gradient(to top right, lightgreen 0%, darkgreen 100%);
 }
 
 .nav-menu-color-events {
     background-color: purple;
+    background: linear-gradient(to top right, violet  0%, purple 100%);
 }
 
 .nav-menu-color-chapters {
     background-color: turquoise;
+    background: linear-gradient(to top right, steelblue  0%, turquoise 100%);
 }
 
 .nav-menu-color-contacts {
     background-color: darkblue;
+    background: linear-gradient(to top right, green  0%, darkblue 100%);
 }
 
 .nav-menu-color-resources {
-    /* background-color: crimson; */
-    background: linear-gradient(to bottom right, red, yellow);
+    background-color: crimson;
+    background: linear-gradient(to bottom right, crimson, yellow);
 }
 
 .nav-menu-color-local {
     background-color: goldenrod;
+    background: linear-gradient(to top left, gold  0%, chocolate 100%);
 }
 
 .nav-menu-color-stores {
     background-color: teal;
+    background: linear-gradient(to top left, teal 0%, cadetblue 100%);
 }
 
 .nav-menu-color-clubs {
     background-color: olive;
+    background: linear-gradient(to top left, darkgreen 0%, olive 100%);
 }
 
 .nav-menu-color-shows {
     background-color: brown;
+    background: linear-gradient(to top left, indianred  0%, darkred  100%);
 }
 
 .nav-menu-color-publications {
@@ -108,13 +115,13 @@ header {
 
 .fullname {
     font-family: "Dancing Script", cursive;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 38px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
     color: #fff;
-      background: -webkit-linear-gradient(bottom, gold, goldenrod); /* or linear-gradient. May not need -webkit- */
+      background: -webkit-linear-gradient(top right, goldenrod, yellow); /* or linear-gradient. May not need -webkit- */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -189,4 +196,11 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/* Hover.css class styling for menus */
+
+.hvr-back-pulse:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
