@@ -5,18 +5,17 @@ Calligraphy, penmanship, pen collecting, vintage pen restoration, nib tuning, in
 
 This website is printed on our business card used to provide information to interested people, and service as a hub for all information about 
 our club, our club chapter meeting dates, and links to our various social media sites, local chapterer contacts and links to regional pen stores,
-pen shows, and more. 
+pen shows, and more.  It's been a static page up until now, but the free hosting vendor was so worthless that it was too much of a hassle to keep
+running.  I recently found out about GitHub pages. The web site will be hosted on GitHub as https://iowapen.github.io, and once in a useful state, it will
+also be on the domain name we have purchased (https://iowapen.club and https://iowapen.com)
 
-We'd also like to eventually host a blog (perhaps in a later module of the Full Stack Developer course, as it's mention in the curriculum.)
-
-The web site will be hosted on GitHub as iowapen.github.io, and later on the domain name we have purchased:
-
-http://www.iowapen.club.  We also have the domain www.iowapen.com that we hope to link to use as well. 
+We'd also like to eventually host a blog (perhaps in a later module of the Full Stack Developer course, as it's mention in the curriculum) 
+and a user discussion forum
 
 To access this source code:
 
-git remote add origin https://github.com/IowaPen/iowapen.github.io.git
-git push -u origin master
+- git remote add origin https://github.com/IowaPen/iowapen.github.io.git
+- git push -u origin master
 
 
 
@@ -25,9 +24,21 @@ git push -u origin master
 Use this section to provide insight into your UX process, 
 focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
+The visual elements of the page are designed to resemble writing, especially the writing with ink shading of fountain pens (through the use of radial and 
+linear gradients).  The menu buttons also resemble ink shading and "sheen", as well as resemble ink sample swatches very commonly used by ink vendors, 
+stores and enthusiasts to catalog and show their ink colors and collections.  Eventually I might replace the backgrounds with ACTUAL ink swatches. 
+
 ### Who this website is for:
 
+Members of IowaPen or other people interested in writing instruments, ink, paper - there are quite a lot more than you think! I will both provide information 
+for our members and help new members find us. 
+
 ### What they want to achieve when they visit
+
+- Find out how to contact us
+- Find our meeting dates, times and locations
+- Find our social media sites
+- Find other resources related to the hobby; these resources are fragmented all around the web and I'd like to eventually provide a single resources for many of them, sort of the IMDB of writing instruments
 
 ### The best way to help them achieve these things
 A web site is accessible to anyone.  Not everyone uses Facebook, Twitter, and other social media and never will.   We need a free and open place
@@ -54,14 +65,63 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+In looking over the course syllabus/schedule, I can see opportunuties to implment many of these as part of other course major projects (or on my own as I learn the necessary skills in the course, as seems appropriate.)
 
+- Make menu background actual ink sample swatches instead of color gradients
+- As I continue through the course there are areas I will either implement myself or through a third party tool, as seems appropriate
+    - Pen / Ink / Writing quotes (as part of the course that covers using databases) - I already have a large quotation list
+    - Blog (implement own, use third party such as WordPress, Blogger, etc)
+    - Discussion Forum (implement own or use third party)
+    - Pen Club database (as opposed to simple list, allow update submission)
+    - Pen Show database (as opposed to simple list, allow update submission)
+    - Pen Store list (online and bricks-and-mortar)
+    - Pen Publication list
+    - Pen Vendor list
+    - Ink Vendor list
+    - Paper vendor list
+    
+    FUTURE - Pen version of IMDB 
+    - Nicer, more real-life event calendar with club events, pen shows, other related events
+    - Pen databases
+        - Pen companies
+        - Pen models (fountain pen, ballpoint, rollerball, gel, mechanical pencil, etc)
+        - Pen photos
+        - Pen reviews
+    - Ink databases
+        - Ink vendors
+        - Ink brands/lines
+        - Ink reviews
+        - Ink sample images 
+    - Paper databases
+        - Paper vendors
+        - Paper branks/lines
+            - Esp fountain pen friendly or UN-friendly
+        - Paper reviews
+    - Pen Show calendar and links
+    - Pen Store links
+    - Pen Club links
+    - Pen book links 
+    - Pen publication (magazine) links
+
+    - Many of these could show advertisements as well, to fund the site and perhaps be turned into a business or several businesses. 
+         
+    
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+
+- [Bootstrap JS framework](https://getbootstrap.com/)
+
+- [Google Fonts](https://fonts.google.com/)
+    
+- [FontAwesome icons](https://fontawesome.com)
+
+- [Hover.css](https://ianlunn.github.io/Hover/)
+
+
 
 
 ## Testing
