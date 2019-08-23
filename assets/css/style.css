@@ -3,9 +3,19 @@
 
 /* COLORS --------------------------------------------*/
 
-.bg-color-heading {
-    background-color: #957632;
+body {
+    background-color: maroon; /* #957632; */
+    
 }
+
+.bg-color-heading {
+    background-color: maroon; /* #957632; */
+}
+
+.bg-color-menu {
+    background-color: maroon; /* #957632; */
+}
+
 
 .text-color-heading {
     color: #cbc5ad;
@@ -20,7 +30,7 @@
 }
 
 .bg-color-footer {
-    background-color: #957632;
+    background-color: maroon; /* #957632; */
 }
 
 .text-color-footer {
@@ -125,16 +135,16 @@ header {
 
 
 .logo {
-    background: url("../images/iowapen_logo.jpg");
-    background-position: center;
+    background: url("../images/iowapen_logo_transparent.png");
+    background-position: top left;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 210px;  /* 360px */
+    background-size: auto auto;
+    min-height: 360px;
+    min-width: 269px;
     
-    transition: all .5s ease-in-out;
+   /* transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-
+    -webkit-transition: all .5s ease-in-out; */
  }
 
 .clubname {
