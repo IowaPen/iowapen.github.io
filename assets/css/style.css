@@ -135,8 +135,8 @@ header {
 
 
 .logo {
-    background: url("../images/iowapen_logo_transparent.png");
-    background-position: top left;
+    background: url("../images/iowapen_logo_transparent_gold.png");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: auto auto;
     min-height: 360px;
