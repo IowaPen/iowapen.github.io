@@ -78,4 +78,5 @@ OTHER TASKS
 
 PROBLEMS
 [ ] Work on the menu buttons on the side, making them change from one to two wide and above the content area, to two wide on wider sizes, then to perhaps 3 or 4 wide as thet site is used on wider screens using BootStrap column sizing.  
+[ ] Gradients in title not working on IE11; see if I need browser specific (e.g. -moz-*) CSS elements or just can't do it.  Make sure there is a good background color for browsers that don't support gradients. 
 [ ] Figure out why the Chrome developer tools show iPhone and other smaller device size pixel dimensions quite inaccurately.  The iPhone 6s Plus I own is 1080x1920 in landscape mode but Chrome shows it as 375x667.  This means that the breaks points in Bootstrap xs, sm, and even md are not correct; the iphone 6s Plus is in LG range of desktops!  I'm not sure it's reacting properly and I might need ot consider a 1/4 wide button nav bar and a 3/4 wide content area?   On an iPhone the buttons really need to take up the entire width of the landscape display in either one or two wide layout.
