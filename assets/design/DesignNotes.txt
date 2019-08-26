@@ -1,0 +1,81 @@
+IowaPen Web Site Design Notes
+
+
+PURPOSE
+IowaPen is an acronym for Iowa's Outstanding Writing And Pen Enthusiast's Network.  It's a pen club, a gathering of of people interesting in writing instruments, ink, paper, and related things.  The hobby is surprisingly broad, encompassing the myriad types of writing instruments, their history, construction, restoration and creation.  Besides history and handiwork, there are also arts (calligraphy and drawing and handwriting), chemistry (materials to construct pens, to create ink of various kinds, etc), and many other areas. 
+
+I founded run this club, and we now have three chapters in various Iowa cities. We need a web site; we already have a lot of social media present but not everyone uses those. I had created a rudimentary site, hosted on a free web site hosting service that was so slow and touchy that we dropped it for a while.  I recently found GitHub pages and want to host at least a static version there.  Some future goals might require moving it elsewhere (like a service I use for my personal site, JavaPipe).
+
+The site needs to have the following information:
+     - Who and what we are
+     - Where we meet
+     - How to contact us
+     - A calendar/list of upcoming events (both in our club and in the pen community)
+     - Links to our social media sites
+     
+I also eventually want to add resources and information:
+    - Good resources for pen hobbyists
+    
+    - Local resources for our chapter members
+    
+    - Pen stores, both local and worldwide (there's no good database, just many fragmentary ones) preferrably with a form to submit/edit new ones
+    
+    - Pen Shows (there are 17 per year all over the USA and many more worldwide - there needs to be a good single database of these too)
+    
+    - Pen Clubs - there are many all over the world, and again there's not good single point of contact.  There also some national and worldwide organizations such as the Pen Collectors of America
+    
+    - Publications (there are many books on the hobby, as well as several magazines)
+    
+As this course progresses and we study database use etc  I want to at least consider adding the following using that knowledge:
+
+    - A blog to post about club and writing instrument news
+    
+    - A discussion forum to let members asks each other questions and discuss the many areas of the hobby.
+    
+And as we discuss databases, perhaps go from static lists of pen shows, pen clubs, pen stores, etc to database driven lists...sort of an IMDB for writing instruments (IWIDB?) and also add things like pen vendors, pen models, ink vendors, ink product lines and so on.  This could even be an ad-supported site as there are many pen stores that advertise online, Amazon ads, etc.
+
+The site's template is modelled after the UCD Resume we did in class but I have moved the button navigation menu to the left side instead of the bottom of the footer.  I want to make the buttons look like ink sample swatches and at least initially I have use gradients (both linear and radial, for variety and effect) to simular the color gradients/shading that fountain pen ink sample swatches have.
+
+
+TASKS
+[ ] Create a template page for the basic structure before adding content
+    [ ] Header with logo and title and full name
+    [ ] Navigation button in center section, left two-thirds, or possibly one . third in larger sizes, or full width buttons in the smaller sizes
+
+[ ] Create a home page with "About" information and the upcoming meetings
+
+[ ] Create an events page with information about meeting further out, and eventually pen-related events such as Fountain Pen Day, Pelikan Hub, Pen Show dates, and much more (there are a surprising number of National Days and World Days related to writing instruments, writing, etc. 
+
+[ ] Create a contact page with full contact information for the various city chapter coordinator and the group in general. 
+
+[ ] Create a chapters page listing the chapters available.  We've gone from one to three in about the same number of years, consider the Omaha-based Midlands Pen Club our "Western" chapter, and are trying to get chapters started in other cities such as near the Sheaffer Pen Museum in Southeast Iowa where there's a large cluster of members who are too far away (2-3 hour drives) to make our current chapter meetings in centeral and eastern Iowa.
+
+Eventually add the following pages and more:
+[ ] Resources
+[ ] Local Resources
+[ ] Pen Shows
+[ ] Pen Stores
+[ ] Pen Clubs
+[ ] Pen/Ink/Writing quotes
+[ ] Pen Publications
+[ ] Pen Manufacturers
+[ ] Ink Manufacturers
+[ ] Paper Manufacturers
+[ ] A Writing Instrument blog (or use something like WordPress)
+[ ] A discussion forum (or use something like WordPress)
+
+
+OTHER TASKS
+
+
+[ ] Contact IowaPen East leader Danielle Chargo for permission to use the logo she designed and get a clear version if avaialble (Photoshop?)
+[x] Make transparent version of logo
+    [x] Turn outline of logo from black to gold
+    [x] Decide on background color (brown? dark green? Dark red?)
+[x] Use gradients to make logo and larger display text appear to have shading like fountain pen inks often do.
+[ ] Can I apply gradients on a character by character basis? Use <span> for each letter of the title and maybe subtitle? Time consuming work, but might be very cool and appropriate.
+[ ] As we get into databases, create a pen quote database and read one randomly each time the page is refreshed, display in the header or footer.
+
+PROBLEMS
+[ ] Work on the menu buttons on the side, making them change from one to two wide and above the content area, to two wide on wider sizes, then to perhaps 3 or 4 wide as thet site is used on wider screens using BootStrap column sizing.  
+[ ] Figure out why the Chrome developer tools show iPhone and other smaller device size pixel dimensions quite inaccurately.  The iPhone 6s Plus I own is 1080x1920 in landscape mode but Chrome shows it as 375x667.  This means that the breaks points in Bootstrap xs, sm, and even md are not correct; the iphone 6s Plus is in LG range of desktops!  I'm not sure it's reacting properly and I might need ot consider a 1/4 wide button nav bar and a 3/4 wide content area?   On an iPhone the buttons really need to take up the entire width of the landscape display in either one or two wide layout.
