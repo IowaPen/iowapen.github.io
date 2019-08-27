@@ -1,0 +1,4 @@
+TO DO
+
+[ ] Make version of logo with black outline and filled with gold
+[ ] 
