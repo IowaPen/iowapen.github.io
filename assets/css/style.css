@@ -157,10 +157,10 @@ header {
     font-size: 72px;
     margin-top: 30px;
     text-align: center;
-    background-color: goldenrod;
-    background: -webkit-radial-gradient(crimson, yellow); /* or linear-gradient. May not need -webkit- */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: goldenrod;
+    background:     -webkit-radial-gradient(crimson, yellow);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
 }
 
 .fullname {
@@ -170,7 +170,7 @@ header {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
-    background-color: goldenrod;
+    color: goldenrod;
     background: -webkit-radial-gradient(goldenrod, yellow, goldenrod,yellow,goldenrod); /* or linear-gradient. May not need -webkit- */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -280,7 +280,6 @@ footer {
     font-weight: 600;
     font-size: 36px;
     color: goldenrod;
-    background-color: goldenrod;
     background: -webkit-radial-gradient(goldenrod, yellow); /* or linear-gradient. May not need -webkit- */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

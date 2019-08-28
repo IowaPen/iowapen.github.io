@@ -1,4 +1,57 @@
 TO DO
 
 [ ] Make version of logo with black outline and filled with gold
-[ ] 
+
+[ ] Make nav button column to content column ration 1/4 to 3/4 instad of 1/3 to 2/3 as move to larger screens, e.g. col-xl-4 & col-xl-8 so that we get smaller menu area
+
+[ ] Create a template page for the basic structure before adding content
+    [ ] Header with logo and title and full name
+    [ ] Navigation button in center section, left two-thirds, or possibly one . third in larger sizes, or full width buttons in the smaller sizes
+
+[ ] Create a home page with "About" information and the upcoming meetings
+
+[ ] Create an events page with information about meeting further out, and eventually pen-related events such as Fountain Pen Day, Pelikan Hub, Pen Show dates, and much more (there are a surprising number of National Days and World Days related to writing instruments, writing, etc. 
+
+[ ] Create a contact page with full contact information for the various city chapter coordinator and the group in general. 
+
+[ ] Create a chapters page listing the chapters available.  We've gone from one to three in about the same number of years, consider the Omaha-based Midlands Pen Club our "Western" chapter, and are trying to get chapters started in other cities such as near the Sheaffer Pen Museum in Southeast Iowa where there's a large cluster of members who are too far away (2-3 hour drives) to make our current chapter meetings in centeral and eastern Iowa.
+
+[ ] Try site on iPhone 1 and iPhone 3gs, original iPad.
+
+[ ] Upgrade Parallels VM to latest (I subscribe to annual updates) and test with IE 10,11, Firefox, Chrome on Windows, also on Linux.
+
+[ ] Switch from 1/3-2/3 column ration in <section> to 1/4-3/4 column ration in xl screen size, maybe lg size.
+
+Add the following pages as time allows
+
+[ ] Resources
+[ ] Local Resources
+[ ] Pen Shows
+[ ] Pen Stores
+[ ] Pen Clubs
+[ ] Pen/Ink/Writing quotes
+[ ] Pen Publications
+
+Eventually add the following pages and more:
+
+[ ] A Writing Instrument blog (or use something like WordPress)
+[ ] A discussion forum (or use something like WordPress)
+[ ] Reviews (pen, ink, paper ,etc)
+
+[ ] Pen Vendors
+[ ] Ink Vendors
+[ ] Paper Vendors
+
+
+OTHER TASKS
+
+
+[ ] Contact IowaPen East leader Danielle Chargo for permission to use the logo she designed and get a clear version if avaialble (Photoshop?)
+[x] Make transparent version of logo
+    [x] Turn outline of logo from black to gold
+    [x] Decide on background color (brown? dark green? Dark red?)
+[x] Use gradients to make logo and larger display text appear to have shading like fountain pen inks often do.
+[ ] Can I apply gradients on a character by character basis? Use <span> for each letter of the title and maybe subtitle? Time consuming work, but might be very cool and appropriate.
+[ ] As we get into databases, create a pen quote database and read one randomly each time the page is refreshed, display in the header or footer.
+ 
+ 
