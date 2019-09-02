@@ -4,16 +4,16 @@
 /* COLORS --------------------------------------------*/
 
 body {
-    background-color: maroon; /* #957632; */
+    background-color: #6b1919; 
     
 }
 
 .bg-color-heading {
-    background-color: maroon; /* #957632; */
+    background-color: #6b1919; 
 }
 
 .bg-color-menu {
-    background-color: maroon; /* #957632; */
+    background-color: #6b1919;  
 }
 
 
@@ -26,11 +26,11 @@ body {
 }
 
 .text-color-section {
-    color: #6d5624;
+    color:#6b1919; 
 }
 
 .bg-color-footer {
-    background-color: maroon; /* #957632; */
+    background-color: #6b1919; 
 }
 
 .text-color-footer {
@@ -143,8 +143,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto auto;
-    min-height: 360px;
-    min-width: 269px;
+    min-width: 135px;
+    min-height: 180px;
     
    /* transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -169,20 +169,13 @@ header {
     font-size: 38px;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: goldenrod;
     background: -webkit-radial-gradient(goldenrod, yellow, goldenrod,yellow,goldenrod); /* or linear-gradient. May not need -webkit- */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.heading-quote {
-    padding: 10px;
-    margin-left: 0px;
-    font-family: 'Indie Flower', cursive;    /* TODO: Why does THIS work, but not font-size, font-style? */
-    font-size: 24px;                         /* TODO: DOESN'T work; why? Changes linespacing, but not font height!*/
-    font-style: italic;                      /* TODO: DOESN'T work; why? */
-}
 
 .heading-quote blockquote {
     quotes: "&ldquo;" "&rdquo;";
@@ -236,7 +229,7 @@ header {
     padding-top: 15px;
     display: block;
     color: #fafafa;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .menuitem span {
@@ -260,9 +253,9 @@ header {
 /* SECTION -------------------------------------- */
 
 .section-text {
-    margin: 10px;
+    margin: 15px;
     font-family: Palatino, serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
 }
 
@@ -338,3 +331,8 @@ footer {
     
 }
 
+/* BOOTSTRAP TWEAKS -------------------------------------------------*/
+
+.table-responsive-sm th,td {
+    padding: 5px
+}
