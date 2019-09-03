@@ -8,12 +8,15 @@ body {
     
 }
 
+/* Make links and visited links deeper colors here to match color scheme */
+
 a:link {
     color: steelblue;
 }
 a:visited {
     color: indigo;
 }
+
 
 .bg-color-heading {
     background-color: #6b1919; 
@@ -47,62 +50,83 @@ a:visited {
 /* NAVIGATION MENU BUTTONS COLORS  ----------------------------------------------------------------- */
 
 .nav-menu-color-home {
-    background-color: darkgreen; /* for browsers that do not support gradients */
+    background-color: indigo; /* for browsers that do not support gradients */
     background: linear-gradient(to top right, indigo 0%, darkgreen 100%);
 }
 
 .nav-menu-color-events {
-    background-color: purple;
+    background-color: darkviolet;
     background: linear-gradient(to top right, darkviolet  0%, indigo 100%);
 }
 
+
+.nav-menu-color-join {
+    background-color: darkgoldenrod;
+    background: linear-gradient(to top right, gold  0%, darkgoldenrod 100%);
+}
+
 .nav-menu-color-chapters {
-    background-color: turquoise;
+    background-color: steelblue;
     background: linear-gradient(to top right, steelblue  0%, turquoise 100%);
 }
 
 .nav-menu-color-contacts {
-    background-color: darkblue;
+    background-color: darkred;
     background: linear-gradient(to top right, darkred  0%, darkblue 100%);
+}
+
+.nav-menu-color-local {
+    background-color: darkblue;
+    background: linear-gradient(to top left, darkblue  0%, darkgreen 100%);
 }
 
 .nav-menu-color-resources {
     background-color: crimson;
-    background: linear-gradient(to bottom right, crimson, gold);
+    background: linear-gradient(to bottom right, crimson 0%, gold 100%);
 }
 
-.nav-menu-color-local {
-    background-color: goldenrod;
-    background: linear-gradient(to top left, darkblue  0%, darkgreen 100%);
+.nav-menu-color-penstores {
+    background-color: blue;
+    background: linear-gradient(to top left, blue 0%, sienna 100%);
 }
 
-.nav-menu-color-stores {
-    background-color: teal;
-    background: linear-gradient(to top left, teal 0%, blue 100%);
-}
-
-.nav-menu-color-clubs {
-    background-color: olive;
+.nav-menu-color-penclubs {
+    background-color: darkgreen;
     background: linear-gradient(to top left, darkgreen 0%, sienna 100%);
 }
 
-.nav-menu-color-shows {
+.nav-menu-color-penshows {
     background-color: brown;
-    background: linear-gradient(to top left, indianred  0%, darkred  100%);
+    background: linear-gradient(to top left, brown  0%, yellow  100%);
 }
 
-.nav-menu-color-publications {
-    background-color: sienna;
+.nav-menu-color-penmakers {
+    background-color: purple;
+    background: linear-gradient(to top left, purple  0%, silver  100%);
+}
+
+.nav-menu-color-inkmakers {
+    background-color: blue;
+    background: linear-gradient(to top left, blue  0%, lightblue  100%);
+}
+
+.nav-menu-color-magazines {
+    background-color: indigo;
+    background: linear-gradient(to top left, indigo 0%, sienna 100%);
+}
+
+.nav-menu-color-books {
+    background-color: peru;
     background:  radial-gradient(peru, saddlebrown);
 }
 
 .nav-menu-color-blog {
-    background-color: teal;
-    background: linear-gradient(to top left, indigo 0%, sienna 100%);
+    background-color: silver;
+    background:  radial-gradient(silver,gray);
 }
 
 .nav-menu-color-forum {
-    background-color: olive;
+    background-color: goldenrod;
     background: linear-gradient(to top left, goldenrod 0%, darkgreen 100%); 
 }
 
@@ -120,12 +144,12 @@ h4 {
     text-transform: uppercase;
 }
 
-.center {
+.text-center {
     text-align: center;
 }
 
-.justify {
-    text-align: justify;
+.text-strikeout {
+    text-decoration: line-through;
 }
 
 .inline-block {
@@ -136,12 +160,18 @@ h4 {
 /* Block dividers (for <hr> tags) */
 
 .block-divider {
-    width: 85%;
+    width: 90%;
     background-color: #fafafa;
 }
 
 .block-divider--offwhite {
     background-color: #fafafa;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0px 0px 30px 30px;
+    float: none;
 }
 
 
@@ -157,7 +187,6 @@ header {
     min-height: 200px ; 
     
 }
-
 
 .logo {
     background: url("../images/iowapen_logo_transparent_gold.png");
@@ -226,17 +255,18 @@ header {
     padding-top: 15px;
     display: block;
     color: #fafafa;
-    font-size: 20px;
+    font-size: 1.75rem;
 }
 
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 4px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
@@ -249,11 +279,7 @@ header {
 
 /* SECTION -------------------------------------- */
 
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
+
 
 .section-heading {
     font-family: "Amatic SC", sans-serif;
@@ -269,7 +295,6 @@ header {
     font-family: Palatino, serif;
     font-weight: 100 ;
     font-size: 16px;
-    font-style: italic; /* to simulate writing in more standard text */
     padding: 10px;
 }
 
@@ -277,9 +302,9 @@ header {
 .about-icon {
     font-size: 26px;
     color: #6b1919;
-    margin-top: 5px;
+/*    margin-top: 5px;
     margin-right: 10px;
-    text-align: right;
+    text-align: right; */
 }
 
 .about-heading {
@@ -289,6 +314,15 @@ header {
     font-style: normal;
     margin-bottom: 15px;
 }
+
+.upcoming-events-heading {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
 
 
 /* FOOTER -------------------------------------- */
@@ -362,6 +396,36 @@ footer {
 
 
 
+/* Join-Form----------------------------------------  */
+
+.join-heading {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.join-form button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #6b1919;
+}
+
+/* show required fields in red */
+
+.join-form textarea:required::placeholder,
+.join-form input:required::placeholder {
+    color: red;
+}
+
 
 /* BOOTSTRAP TWEAKS -------------------------------------------------*/
 
@@ -373,3 +437,15 @@ footer {
 }
 
 
+
+
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
