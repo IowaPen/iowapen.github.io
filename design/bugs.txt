@@ -1,0 +1,57 @@
+BUGS & CHANGES
+ 
+LEGEND:  x=fixed, i=in progress, p=partial
+
+FIXED:
+
+[x] IE 11: background-color of .fullname and .clubname classes is goldenrod. Should be color: not background-color: FIXED
+
+[p] Why is there a background color bar below the buttons when window size in 'xs' range.  Check sm, etc too.   
+    FIXED (mostly): there was a letter there and the default background text for the body etc is black I thing; change the default color in CSS?
+
+
+HIGH PRIORITY
+
+[i] IE11: Gradients not working on IE 11, look at -ie- prefixes similar to -moz- or make sure that we get a solid background color on IE only
+    UPDATE: Set up solid colors for now; some research has shown some ways to get linear and radial gradient to work if you use proper (more recent) syntax or -ie- prefix. Experimentation needed.
+
+
+
+MEDIUM PRIORITY
+
+[ ] CHANGE: Work on the menu buttons on the side, making them change from one to two wide and above the content area, to two wide on wider sizes, then to perhaps 3 or 4 wide as thet site is used on wider screens using BootStrap column sizing. 
+
+[ ] SAFARI: Nav buttons don't appear at all on iPhone 4
+
+[ ] IE11: Columns not working at all on IE11, tables can be even worse.  Is this a known IE11 problem?  It used to work better so it could be me, but since more modern browsers look fine, I have to wonder 1280x1024 display.  I'd like to figure this out since I have a bad feeling a lot of folks still use IE 11 or even older.
+
+[i] Add text to Social Media column in footer: "Do you use social media like Facebook or Twitter?  So do we!  Join us on our social media sites!"
+
+[ ] Make icons bigger for social media in footer
+[ ] Style phone and email icons in middle column like Social Media links?
+
+[ ] Make logo somewhat larger, increase the tiny iowa silhouette nib hole, perhaps surround the whole think by an outline of the State of iowa, or work in the State Capitol done (or style the State Capital with a nib where the dome is)
+
+[ ] Change columns in -sm mode so that we get two columns of buttons.
+
+[i] Change columns across in nav menu buttons to 3 or 4 in -XL and maybe even -LG size. 
+
+[ ] Change button style so icon is on left, label or right. Might restrict size of label, but I think it will look better.
+
+[ ] Change heading of events page to "IOWAPEN & PEN COMMUNITY EVENTS" and add writing/pen/etc related "national/world" days, pen shows, Midwest pen club meeting dates (if regular enough to do easily?)
+    
+LOW PRIORITY
+
+[ ] Edge: In join.html the required field default text is not red. Highlight in red if you hit Join button and leave blank, though. 
+
+[ ] Edge: Is ugly about drawing text in regular font and THEN styling.  Other browsers don't do that. Idea for fix: Any way to set font in HTML or is <font> tag deprecated?  Might still work (MS is known to do that); try and see. Can't hurt, might help. I'd thought of style= param on body but that will probably override stylesheet so no.  Edge is being rewritten to use Webkit I've heard, so this problem may go away. Google for fix though.
+
+[ ] Win Chrome:  Context and table text seems smaller than on Mac on all pages. Google for known problem?
+
+
+[i] Mac Chrome: Figure out why the Chrome developer tools show iPhone and other smaller device size pixel dimensions quite inaccurately.  The iPhone 6s Plus I own is 1080x1920 in landscape mode but Chrome shows it as 375x667.  This means that the breaks points in Bootstrap xs, sm, and even md are not correct; the iphone 6s Plus is in LG range of desktops!  I'm not sure it's reacting properly and I might need ot consider a 1/4 wide button nav bar and a 3/4 wide content area?   On an iPhone the buttons really need to take up the entire width of the landscape display in either one or two wide layout.
+
+[ ] Wall-calendar style calendar instead of table? Find some way to automate from a database?
+
+[ ] Add more pen/writing dates to events page; do we want in second table or mail? If second, might get missed.
+
