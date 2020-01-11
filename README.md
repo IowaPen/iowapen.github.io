@@ -1,3 +1,6 @@
+#IMPORTANT NOTE TO CODE INSTITUTE REVIEWERS; the repo for my 1st milestone project for the Code Institute Full Stack Developer Course has been renamed to WBD_FSD_Project1 so I can use this repo to host the IowaPen web site.
+
+___________________________________________
 # IowaPen pen collectors club website
 
 IowaPen is a pen collectors club, a gathering of people interested in fountain pens, mechanical pencils, and writing instruments of all kinds. 
