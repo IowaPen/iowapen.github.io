@@ -1,3 +1,30 @@
+# IMPORTANT NOTE TO CODE INSTITUTE REVIEWER!
+
+The repo for my 1st milestone project for the Code Institute Full Stack Developer Course has **MOVED** - it has been renamed to **WBD_FSD_Project1** so I can use THIS repo to host the IowaPen web site on GitHub Pages at iowapen.github.io and www.iowapen.club and .com
+
+You can now find the repo at:
+
+    https://github.com/IowaPen/WBD_FSD_Project1
+
+**ALSO: https://iowapen.github.io/WBD_FSD_Project1/ will be the running site for my first milestone project now, NOT https://iowapen.github.io/  **
+
+I'm very sorry but I was forced do to this because I was not aware (possibly was not made aware by the course instructions) that this milestone project might be reviewed a SECOND time over a year later, all the way at the END of the course, and that I shouldn't use it.
+
+I could not wait another year to implement the IowaPen site using iowapen.github.io.  I *tried* several times to get assistance from Code Institute Student card and the tutors (each referred me to the other) to change the records of where my first project repo and site where but they all just kept telling me to "make a copy of the repo" and use that.  
+
+As far as I can see, they were mistaken, it doesn't work that way (witness the URL for my renamed project repo when hosted by GitHub pages, which is https://iowapen.github.io/WBD_FSD_Project1/ )
+
+After several attempts to make them understand, being passed back and forth again, I gave up.   I hope you won't penalize me for this.  I tried hard to get this OK'd and my records changed but they just would not listen and assumed I was a confused novice student (despite my noting I've been a developer in other areas for 40 years.)
+
+Another reason for the move is that http://iowapen.github.io/ has been indexed by search engines and comes up early in the results when you search for "iowapen" or "iowa pen", and was confusing. 
+
+SO, ALL of my milestone projects are now named WBD_FSD_ProjectN, where N is 1-4.
+
+Thank you for your understanding on this matter.
+
+- Bill Davis
+___________________________________________
+
 # READ ME - FSD COURSE - PROJECT 2
 
 ## IowaPen pen collectors club website - phase 2
