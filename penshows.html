@@ -48,7 +48,7 @@
                                 <tr v-for="item in items" v-if="item['fields']['Start Date']"> <!-- v-if removes any items with no know date yet-->
                                     <td> {{ item['fields']['Dates'] }} </td>
                                     <td> <strong> <a :href="item['fields']['Website']" target="_blank">{{ item['fields']['Name'] }}</a> </strong></td>
-                                    <td> {{ item['fields']['Venue City'] }}, {{ item['fields']['Venue State'] }} </td>
+                                    <td> {{ item['fields']['Venue City'] }} {{ item['fields']['Venue State'] }} </td>
                                     <td> {{ item['fields']['Venue Country'] }} </td>
                                     <td> {{ item['fields']['Frequency'] }} {{ item['fields']['Occurrence'] }}</td>
                                 </tr>
