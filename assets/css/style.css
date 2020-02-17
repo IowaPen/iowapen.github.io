@@ -74,29 +74,34 @@ a:visited {
     background: linear-gradient(to top right, steelblue  0%, turquoise 100%);
 }
 
-.nav-menu-color-contacts {
+.nav-menu-color-penpeople {
     background-color: darkred;
     background: linear-gradient(to top right, darkred  0%, darkblue 100%);
 }
 
-.nav-menu-color-local {
+.nav-menu-color-penterms {
     background-color: darkblue;
     background: linear-gradient(to top left, darkblue  0%, darkgreen 100%);
 }
 
-.nav-menu-color-resources {
+.nav-menu-color-penquotes {
     background-color: crimson;
     background: linear-gradient(to bottom right, crimson 0%, gold 100%);
 }
 
-.nav-menu-color-penstores {
+.nav-menu-color-penclubs {
     background-color: blue;
     background: linear-gradient(to top left, blue 0%, sienna 100%);
 }
 
-.nav-menu-color-penclubs {
+.nav-menu-color-penstores {
     background-color: darkgreen;
     background: linear-gradient(to top left, darkgreen 0%, sienna 100%);
+}
+
+.nav-menu-color-pensites {
+    background-color: salmon;
+    background: linear-gradient(to top left, brown 0%, salmon 100%);
 }
 
 .nav-menu-color-penshows {
@@ -114,6 +119,12 @@ a:visited {
     background: linear-gradient(to top left, blue  0%, lightblue  100%);
 }
 
+.nav-menu-color-inkcyclopedia {
+    background-color: maroon;
+    background: linear-gradient(to top left, pink  0%, maroon  100%);
+}
+
+
 .nav-menu-color-magazines {
     background-color: indigo;
     background: linear-gradient(to top left, indigo 0%, sienna 100%);
@@ -125,8 +136,8 @@ a:visited {
 }
 
 .nav-menu-color-blog {
-    background-color: silver;
-    background:  radial-gradient(silver,gray);
+    background-color: gray;
+    background:  radial-gradient(dimgray,lightgray);
 }
 
 .nav-menu-color-forum {
