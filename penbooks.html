@@ -54,7 +54,7 @@
                             </thead>
                             <tbody>
                                 <tr v-for="item in items">
-                                    <th scope="row"><strong> <a :href="item['fields']['AmazonAssociateLink']">{{ item['fields']['Title'] }}</a> </strong></th>
+                                    <td scope="row"><strong> <a :href="item['fields']['AmazonAssociateLink']">{{ item['fields']['Title'] }}</a> </strong></td>
                                     <td> {{ item['fields']['Author'] }} </td>
                                     <td> {{ item['fields']['Publisher'] }} </td>
                                     <td> {{ item['fields']['ISBN'] }} </td>
@@ -138,8 +138,8 @@
                 loadItems: function(){
                 // Init variables
                 var self = this
-                var app_id = "appGo3vPegP0WBy67";
-                var app_key = "keyZJuhIFuOIUcEev";
+                var app_id = "appGo3vPegP0WBy67";   // Pen Books / Books table
+                var app_key = "keyZJuhIFuOIUcEev";  // IowaPen read-only account
                 this.items = [];
                 axios.get(
                     "https://api.airtable.com/v0/"+app_id+"/Book?view=Grid%20view",
