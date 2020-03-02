@@ -50,7 +50,7 @@
                                     <td scope="row"><strong> <a :href="item['fields']['URL']">{{ item['fields']['Name'] }}</a> </strong></td>
                                     <td scope="row"> {{ item['fields']['Being Published'] }} </td>
                                     <td scope="row"> {{ item['fields']['Publication Schedule'] }} </td>
-                                    <td scope="row" v-if="item['fields']['Per issue price']"> ${{ item['fields']['Per issue price'] }} </td>
+                                    <td scope="row" v-if="item['fields']['Per issue price']"> {{ item['fields']['Per issue price'] }} </td>
                                     <td scope="row" v-else> Unknown </td>
                                 </tr>
                             </tbody>
@@ -146,5 +146,5 @@
             }
         </script>
     </body>
-
+    
 </html>
