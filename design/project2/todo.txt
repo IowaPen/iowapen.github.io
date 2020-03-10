@@ -42,7 +42,7 @@ Add the following pages as time allows
 [ ] Inkcyclopedia
 [ ] Pencyclopedia
 [ ] Reviews (pen, ink, paper, stores, sites, etc)
-[ ] A discussion forum (or use something like WordPress)
+[ ] A discussion forum (or use something like WordPress or Groups.io or Google Groups or even existing Yahoo Groups)
 [ ] Pen quotes
 [ ] Pen jokes
 [ ] Pen haiku / poetry
