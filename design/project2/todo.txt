@@ -77,10 +77,16 @@ JS CODE CHANGES
          [ ] Future projects for Code Institute should be a tagged branch/version of the dev site or a cloned copy of that tagged branch. 
 
 [ ] Find tools mentioned in course to wireframe the site, or other free tools.
-   [ ] Look for a web based ones
+   [ ] Look for a web based ones (google "web based wireframe tool")
 
     https://www.invisionapp.com/lp/wireframe
-
+    balsamiq
+    mockflow.com
+    moqups.com
+    proto.io
+    miro.com
+    wireframe.cc 
+    figma.com
 
 
 OTHER TASKS
