@@ -376,6 +376,18 @@ This site's Git repo is hosted on GitHub at https://github.com/IowaPen/WBD_FSD_P
 
 I've used the GitHub Pages features to make the site available at https://iowapen.github.io/WBD_FSD_Project2/
 
+To deploy a copy of this site, clone the repo to your own GitHub repo, and turn on publishing the site using GitHub Page's in the repo's setting
+{{ add more detail here }}
+
+If you wish to use a copy of the AirTable database, you may not do so.  While technically feasible, the database is copyrighted by me.  
+
+If you want to make your own databases, the fields and database name and views used are in the JavaScript code.  You're welcome to create your own databases. 
+
+To keep your data safe from modification, do what I did: Create your databases and views on one AirTable account, then create a second AirTable account and share those database with the second account READ-ONLY so that the 
+
+When logged in to the second account, open the site api.airtable.com in a new browser table and use that site to look up the necessary table and account keys to replace the ones used in the JavaScript code.
+
+
 ---
 ## CREDITS
 
@@ -395,5 +407,6 @@ The basic structure for the site was inspired by the UCD Resume mini project in 
 ### ACKNOWLEDGMENTS
 
 - The logo for the pen club was created by Danielle Chargo of IowaPen East.
+- This README is based on the sample README template provided by CodeInstitue.net
 
 ---

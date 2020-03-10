@@ -1,38 +1,37 @@
 TO DO
 
+COMPLETED
 [x] Make version of logo with black outline and filled with gold
-
-[i] Make nav button column to content column ration 1/4 to 3/4 instad of 1/3 to 2/3 as move to larger screens, e.g. col-xl-4 & col-xl-8 so that we get smaller menu area
-
 [x] Create a template page for the basic structure before adding content
     [x] Header with logo and title and full name
     [x] Navigation button in center section, left two-thirds, or possibly one . third in larger sizes, or full width buttons in the smaller sizes
-
 [x] Create a home page with "About" information and the upcoming meetings
-
 [x] Create an events page with information about meeting further out, and eventually pen-related events such as Fountain Pen Day, Pelikan Hub, Pen Show dates, and much more (there are a surprising number of National Days and World Days related to writing instruments, writing, etc. 
-
 [x] Create a chapters page listing the chapters available.  We've gone from one to three in about the same number of years, consider the Omaha-based Midlands Pen Club our "Western" chapter, and are trying to get chapters started in other cities such as near the Sheaffer Pen Museum in Southeast Iowa where there's a large cluster of members who are too far away (2-3 hour drives) to make our current chapter meetings in centeral and eastern Iowa.
 
-[i] Try site on iPhone 1 and iPhone 3gs, original iPad.
+[i] Make nav button column to content column ration 1/4 to 3/4 instad of 1/3 to 2/3 as move to larger screens, e.g. col-xl-4 & col-xl-8 so that we get smaller menu area
 
+TESTING / DEVICES
+[i] Try site on iPhone 1 and iPhone 3gs, original iPad.
 [ ] Upgrade Parallels VM to latest (I subscribe to annual updates) and test with IE 10,11, Firefox, Chrome on Windows, also on Linux.
 
+LAYOUT
 [i] Switch from 1/3-2/3 column ration in <section> to 1/4-3/4 column ration in xl screen size, maybe lg size.
-
-[ ] Investigate oing from a 1/3rd-2/3rds layout to a 1/4-3/4 layout on the larger size breakpoints (-xl and maybe -lg) or maybe to 3 columns or more of buttons so the buttons don't get HUGE on either widescreen monitors or on small smartphone screens
-
+[ ] Investigate going from a 1/3rd-2/3rds layout to a 1/4-3/4 layout on the larger size breakpoints (-xl and maybe -lg) or maybe to 3 columns or more of buttons so the buttons don't get HUGE on either widescreen monitors or on small smartphone screens
   [ ] Make even the -xs size screen layout via Bootstrap go to two columns of buttons so users won't have to scroll so much
 
+PAGES / DATABASES
 Add the following pages as time allows
 
-[x] Pen Shows
-[x] Pen Events (club, show, national or world days)
+[ ] About page (more detail about club, history, users, etc)
+[ ] Membership page/directory
+[i] Pen Shows
+[i] Pen Events (club, show, national or world days)
 [i] Pen Blog (club news, pen news)
-[x] Pen Books
-[ ] Pen Magazines
-[ ] Pen Stores
-[ ] Pen Clubs
+[i] Pen Books
+[i] Pen Magazines
+[i] Pen Stores
+[i] Pen Clubs
 [i] Pen People
 [i] Pen/Ink/Writing quotes
 [i] Pen Sites (was Resources)
@@ -44,6 +43,44 @@ Add the following pages as time allows
 [ ] Pencyclopedia
 [ ] Reviews (pen, ink, paper, stores, sites, etc)
 [ ] A discussion forum (or use something like WordPress)
+[ ] Pen quotes
+[ ] Pen jokes
+[ ] Pen haiku / poetry
+[ ] 
+
+[ ] Change the "Ink Sample Chart" heading to "Link Sample Chart or (l)ink sample Chart.
+[ ] Ditto the "IowaPen Brand Inks" to " (l)inks or (L)inks
+[ ] Put in another division or two like "COMING SOON" to separate CLUB FUNCTIONS and DATABASES sections
+    Club function: Home, Join, Chapter, Blog, Club Events, forum
+    Database: Everything else
+[ ] Change the swatches so they are square or at last have a max size and put padding between each swatch top and bottom. 
+[ ] Make the swatch sidebar on 1/4 instead of 1/3 of the width.  Event less on the wider page sizes.
+[ ] Make it 2 columns on even the -xs size
+[ ] Make it 3 columns on -xl size? 
+
+JS CODE CHANGES
+[ ] Add field validation to JOIN email form - empty fields that let you submit?  Seems to be possible yet are set to required - reviewer sent form with required fields empty! HOW?
+[ ] Move the database table names, key names, view names, etc to a SINGLE .js file
+[ ] Move the database access code to a single .js file and make it generic so that it is no longer duplicated in every web page that accesses a database.
+[ ] Remove the hardwired copyright code from each HTML page and add the single script tag to access assets/js/copyright.js instead.
+[ ] Add the script tag to access the assets/js/adbanner.js code at the bottom of each web page. 
+[ ] Retrofit all the HTML pages to use the assets/js/includes.js
+[ ] Create a genericMail.js based on joinMail.js that lets you concat multiple fields (with labels) into a generic subject/body email. 
+[ ] Make contribution email forms for EACH database page. 
+[ ] Make a "Contact us" email form
+[ ] Create an data entry/edit system for each database, behind a login account system.
+
+[ ] Improve Testing process
+     [ ] Add using code linters for HTML, CSS, JS. 
+     [ ] Investigate simple CI/CD on GitHub 
+         [ ] Have a Dev and Prod database and use branches for new development and merges to move the code to the production database and deploy it?
+         [ ] Future projects for Code Institute should be a tagged branch/version of the dev site or a cloned copy of that tagged branch. 
+
+[ ] Find tools mentioned in course to wireframe the site, or other free tools.
+   [ ] Look for a web based ones
+
+    https://www.invisionapp.com/lp/wireframe
+
 
 
 OTHER TASKS
