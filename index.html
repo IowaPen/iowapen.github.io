@@ -66,27 +66,6 @@
 
                         </div> <!-- end id=whatwhere" -->
 
-                 <!-- Recent News -->
-
-                        <div class="row no-gutters">
-                            <div class="col text-color-section section-text">
-                                <hr class="block-divider">
-                                <h2 class="text-center upcoming-events-heading">RECENT NEWS</h2>
-                            </div>
-                        </div>
-
-                        <div id="blogentries" class="col text-color-section"> 
-                            <ul id="dataList">
-                                <li v-for="item in items">
-                                    <p class="blog-heading">{{ item['fields']['Title'] }}</a></p>
-                                        <p class="blog-attribution"> by {{ item['fields']['Author'] }} - {{ item['fields']['FormattedDate'] }} &nbsp;&nbsp; </p>
-                                    <pre class="blog-body">{{ item['fields']['Body'] }}</pre>
-                                    <img :src="item['fields']['Photo'][0]['thumbnails']['large']['url']" alt="" v-if="item['fields']['Photo']" width="150">
-                                    <hr/>
-                                </li>                            
-                            </ul>
-                            <p class="text-center">For older club and pen news, visit our <a href="penblog.html">Blog</a> page</p>
-                        </div><!--blogentries-->
 
                 <!-- Events -->
 
@@ -120,15 +99,36 @@
                                                 <!-- <td> {{ item['fields']['Frequency'] }} </td> -->
                                             </tr>
                                         </tbody>
-                                        <tfoot>
-                                            <tr class="text-center">
-                                                <th scope="col" colspan=6>If no information appears above, your organization or ISP may be blocking AirTable.com</th>
-                                            </tr>
-                                        </tfoot>
                                     </table>
-                                <p class="text-center">For many more pen events in the coming months, visit our <a href="penevents.html">Events</a> page</p>
+
+                                <p class="text-center">For many more pen events in the coming months, visit our <a href="penevents.html">Pen Events</a> page</p>
                             </div><!--eventlist-->
                         </div>
+
+                 <!-- Recent News -->
+
+                        <div class="row no-gutters">
+                            <div class="col text-color-section section-text">
+                                <hr class="block-divider">
+                                <h2 class="text-center upcoming-events-heading">RECENT NEWS</h2>
+                            </div>
+                        </div>
+
+                        <div id="blogentries" class="col text-color-section"> 
+                            <ul id="dataList">
+                                <li v-for="item in items">
+                                    <p class="blog-heading">{{ item['fields']['Title'] }}</a></p>
+                                        <p class="blog-attribution"> by {{ item['fields']['Author'] }} - {{ item['fields']['FormattedDate'] }} &nbsp;&nbsp; </p>
+                                    <pre class="blog-body">{{ item['fields']['Body'] }}</pre>
+                                    <img :src="item['fields']['Photo'][0]['thumbnails']['large']['url']" alt="" v-if="item['fields']['Photo']" width="150">
+                                    <hr/>
+                                </li>                            
+                            </ul>
+                            <p class="text-center">For older club and pen news, visit our <a href="penblog.html">Pen Blog</a> page</p>
+                        </div><!--blogentries-->
+
+                        <p class="text-center">If no information appears above, your organization or ISP may be blocking <a href="https://airtable.com/">AirTable.com</a></p>
+
 
                 </div> <!-- end id=content -->
 
@@ -208,7 +208,7 @@
                             var app_key = "keyZJuhIFuOIUcEev";
                             this.items = [];
                             axios.get(
-                                "https://api.airtable.com/v0/"+app_id+"/Events?view=AllEventsInNext28Days",
+                                "https://api.airtable.com/v0/"+app_id+"/Events?view=AllEventsInNext60Days",
                                 { 
                                     headers: { Authorization: "Bearer "+app_key } 
                                 }
