@@ -56,11 +56,18 @@ Add the following pages as time allows
 [ ] Pen haiku / poetry
 [ ] 
 
-[ ] Change the "Ink Sample Chart" heading to "Link Sample Chart or (l)ink sample Chart.
-[ ] Ditto the "IowaPen Brand Inks" to " (l)inks or (L)inks
-[ ] Put in another division or two like "COMING SOON" to separate CLUB FUNCTIONS and DATABASES sections
+
+[ ] Add Favicon using IowaPen nib login
+        https://www.favicon-generator.org/
+[ ] Give red background not transparent
+
+NAV BAR CHANGES
+[x] Change the "Ink Sample Chart" heading to "Link Sample Chart or (l)ink sample Chart.
+[x] Ditto the "IowaPen Brand Inks" to " (l)inks or (L)inks
+[x] Put in another division or two like "COMING SOON" to separate CLUB FUNCTIONS and DATABASES sections
     Club function: Home, Join, Chapter, Blog, Club Events, forum
     Database: Everything else
+
 [ ] Change the swatches so they are square or at last have a max size and put padding between each swatch top and bottom. 
 [ ] Make the swatch sidebar on 1/4 instead of 1/3 of the width.  Event less on the wider page sizes.
 [ ] Make it 2 columns on even the -xs size
