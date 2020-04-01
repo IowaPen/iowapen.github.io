@@ -16,7 +16,7 @@ function initMap() {
         }
     });
 
-    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
  
     //TODO:  Move these to an AirTable database and read them from there into array.
     var locations = [
@@ -40,11 +40,13 @@ function initMap() {
         { lat: 40.717249,   lng: -91.451672   },    //West Point IA USA
         { lat: 41.604722,   lng: -93.711111   },    //Windsor Heights IA USA
         { lat: 35.208333,   lng: -114.025833  },    //Kingman AZ USA 
+        { lat: 39.953056,   lng: -86.269444   },    //Zionsville, IN
+        { lat: 38.976812,   lng: -91.505026   },    //Montgomery City, MO USA
+        { lat: 41.250000,   lng: -96.00000    },    //Omaha, NE
         { lat: 41.482222,   lng: -81.669722   },    //Cleveland OH USA
         { lat: 39.983333,   lng: -82.983333   },    //Columbus OH USA
-        { lat: 37.533333,   lng: -77.466667   },    //Richmond VA USA
-        { lat: 38.976812,   lng: -91.505026   },    //Montgomery City, MO USA
-        { lat: 32.779167,   lng: -96.808889   }     //Dallas TX USA
+        { lat: 32.779167,   lng: -96.808889   },    //Dallas TX USA
+        { lat: 37.533333,   lng: -77.466667   }     //Richmond VA USA
     ];
  
     var markers = locations.map(function(location, i) {
