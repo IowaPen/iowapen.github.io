@@ -126,6 +126,7 @@
                                     <p class="blog-heading"><a :href="item['fields']['Link']">{{ item['fields']['Title'] }}</a></p>
                                         <p class="blog-attribution"> by {{ item['fields']['Author'] }} - {{ item['fields']['FormattedDate'] }} &nbsp;&nbsp; </p>
                                     <pre class="blog-body">{{ item['fields']['Body'] }}</pre>
+                                    <a :href="item['fields']['Link']" v-if="item['fields']['Link']">Link</a>
                                     <img :src="item['fields']['Photo'][0]['thumbnails']['large']['url']" alt="" v-if="item['fields']['Photo']" width="150">
                                     <hr/>
                                 </li>                            
